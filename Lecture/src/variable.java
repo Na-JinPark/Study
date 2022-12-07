@@ -1,7 +1,15 @@
 // Java 프로그래밍 - 변수와 자료형_1
 
+import javax.lang.model.SourceVersion;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+
 public class variable {
     public static void main(String[] args) {
+
+        //sout 출력문 자동생성
+        //soutv마지막변수 출력문 자동생성
 ///////////////////////////////////////////////////////2_1
 //      1. 변수 사용하기
         System.out.println("== 변수 사용하기 ==");
@@ -211,6 +219,124 @@ public class variable {
         myArray3[1] = " ";
         myArray3[2] = "World!";
         System.out.println(myArray3[0] + myArray3[1] + myArray3[2]);
+
+
+////////////////////////////////////////////////////////2_4
+//      1. 자료형 - 리스트
+        System.out.println("== 리스트 ==");
+
+        ArrayList L1 = new ArrayList();
+
+//      1-1. add 리스트 추가
+
+        L1.add(1);
+        L1.add("hello");
+        L1.add(2);
+        L1.add(3);
+        L1.add(4);
+        L1.add("world!");
+        System.out.println("L1 = " + L1);
+        
+        L1.add(0,1);
+        System.out.println("L1 = " + L1);
+
+//      1-2. get  리스트에서 데이터 가져오기
+
+        System.out.println(L1.get(0));
+        System.out.println(L1.get(3));
+
+//      1-3. size 리스트에 들어가 있는 데이터 갯수
+
+        System.out.println(L1.size());
+
+//      1-4. remove 리스트의 데이터 지우기
+
+        System.out.println(L1.remove(0)); // 리스트의 위치로 데이터를 지울때
+        System.out.println("L1 = " + L1);
+
+        System.out.println(L1.remove(Integer.valueOf(2))); //리스트에 있는 데이터 값을 지우고 싶을때
+        System.out.println("L1 = " + L1);
+
+//      1-5. clear 리스트에 있는 모든 데이터를 제거해주는 함수
+
+        L1.clear();
+        System.out.println("L1 = " + L1);
+
+
+//      1-6. sort  정렬
+
+        ArrayList L2 = new ArrayList();
+        L2.add(5);
+        L2.add(3);
+        L2.add(4);
+        System.out.println("L2 = " + L2);
+
+        L2.sort(Comparator.naturalOrder()); //오름차순
+        System.out.println("L2 = " + L2);
+        L2.sort(Comparator.reverseOrder()); //내림차순
+        System.out.println("L2 = " + L2);
+
+//      1-7. contains 데이터가 리스트에 들어있는 체크
+
+        System.out.println(L2.contains((1)));
+        System.out.println(L2.contains((3)));
+
+
+//      2. Maps
+        System.out.println("== Maps ==");
+
+        HashMap map = new HashMap();
+
+
+//      2-1. put
+
+        map.put("kiwi",9000);
+        map.put("apple",10000);
+        map.put("mango",12000);
+        System.out.println("map = " + map);
+
+//      2-2. get
+
+        System.out.println(map.get("mandarine"));
+        System.out.println(map.get("kiwi"));
+
+//      2-3. size
+
+        System.out.println(map.size());
+
+//      2-4. remove
+
+        System.out.println(map.remove("kiwi"));
+        System.out.println(map.remove("mandarine"));
+        System.out.println("map = " + map);
+
+//      2-5. containsKey
+
+        System.out.println(map.containsKey(("apple")));
+        System.out.println(map.containsKey(("kiwi")));
+
+
+//      3. Generics
+        System.out.println("== Generics ==");
+        
+        ArrayList L3 = new ArrayList();
+        L3.add(1);
+        L3.add("hello");
+        System.out.println("L3 = " + L3);
+
+        ArrayList<String> L4 = new ArrayList<String>(); //ArrayList<String> L4 = new ArrayList<>(); 오른쪽 비어있어도 암묵적으로 왼쪽 값을 넣어준다
+        L4.add("hello");
+        System.out.println("L4 = " + L4);
+
+        HashMap map1 = new HashMap();
+        map1.put(123,"id");
+        map1.put("apple",10000);
+        System.out.println("map1 = " + map1);
+
+        HashMap<String, Integer> map2 = new HashMap<>();
+        //map2.put(123,"id");
+        map2.put("apple",10000);
+        System.out.println("map2 = " + map2);
 
     }
 }
