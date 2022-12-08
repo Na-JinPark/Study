@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Loop/LOOP.iml" filepath="$PROJECT_DIR$/Lecture/Loop/LOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/Lecture.iml" filepath="$PROJECT_DIR$/Lecture/Lecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Object/Object.iml" filepath="$PROJECT_DIR$/Lecture/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Operator/Operator.iml" filepath="$PROJECT_DIR$/Lecture/Operator/Operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Variable/Variable.iml" filepath="$PROJECT_DIR$/Lecture/Variable/Variable.iml" />
     </modules>
   </component>
 </project>

@@ -65,6 +65,30 @@ class Car2 {
         System.out.println("number : " + number);
     }
 }
+class Car4 {
+    //스태틱 변수
+
+    static String name = "None";  // Static을 사용하여 객체를 만들기 전부터 name라는 변수 생성
+    String type;
+    //Car(){} 생성자 디폴트로 존재해서 생략가능
+
+    Car4(String name, String type){
+        this.name = name;
+        this.type = type;
+    }
+    public  void printCarInfo(){
+        System.out.println("== Car Info ==");
+        System.out.println("name = " + name);
+        System.out.println("type = " + type);
+    }
+    ///스태틱 메소드
+    public static void getName(){
+        //static 메소드일 경우 메소드 안에 쓰이는 변수도 static변수여야한다.
+        System.out.println("Car name : " + name);
+    }
+
+}
+
 
 ///연습
 
@@ -102,23 +126,17 @@ class Animal{
 
 }
 
-class Car3 {
-    // 스태틱 변수
-    String name;
-    String type;
+////////////////오버로딩 실습
 
-    Car3(String name, String type) {
-        this.name = name;
-        this.type = type;
+class Calculator{
+    public int sum(int a, int b){return a+b;}
+    public double sum(double a, double b){return a+b;}
+    public double sum(String a, String b){
+        return Double.parseDouble(a) + Double.parseDouble(b);
     }
-
-    public void printCarInfo() {
-        System.out.println("=== Car Info ===");
-        System.out.println("name: " + name);
-        System.out.println("type: " + type);
+    public int sum(int a, int b, int c){
+        return a+b+c;
     }
-
-    // 스태틱 메소드
 
 }
 
@@ -173,6 +191,22 @@ public class Object {
 //      3. Static
         System.out.println("=== Static ===");
 
+        Car4.getName();
+        Car4 mycar4_1 = new Car4("a","sedan");
+        Car4 mycar4_2 = new Car4("b","suv");
+        Car4 mycar4_3 = new Car4("c","rv");
+        /* 변수가 static일 경우 객체 끼리 static 변수를 공유
+           마지막으로 만든 객체 mycar4_3의 name인 c를 공유해서 mycar4_1,mycar4_2의 name도 다 c이다. */
+        mycar4_1.printCarInfo();
+        mycar4_2.printCarInfo();
+        mycar4_3.printCarInfo();
+
+        ////계산기 오버로딩 연습
+        Calculator c = new Calculator();
+        System.out.println(c.sum(1,2));
+        System.out.println(c.sum(1.0,2.0));
+        System.out.println(c.sum("1","2"));
+        System.out.println(c.sum(1,2,3));
 
     }
 

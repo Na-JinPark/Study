@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 
-public class variable {
+public class Main {
     public static void main(String[] args) {
 
         //sout 출력문 자동생성
@@ -34,7 +34,7 @@ public class variable {
 
 //      2-2. 숫자로 시작 X
 
-       // int 3apple = 2000;
+        // int 3apple = 2000;
 
 //      2-3. 대소문자 구분
 
@@ -78,7 +78,7 @@ public class variable {
 
         System.out.println(Integer.MIN_VALUE); //INTEGER의 최소값을 알 수 있다.
         System.out.println(Integer.MAX_VALUE);
-        
+
         int intNum2 = Integer.MAX_VALUE;
         System.out.println("intNum2 = " + intNum2);
         int intNum3 = Integer.MAX_VALUE + 1;
@@ -98,7 +98,7 @@ public class variable {
         System.out.println(Double.MAX_VALUE);
 
 //      1-3. 2진수 / 8진수 / 16진수
-        
+
         int numBase2 = 0b1100;
         System.out.println("numBase2 = " + numBase2); //10진수로 표현
         int numBase8 = 014;
@@ -236,7 +236,7 @@ public class variable {
         L1.add(4);
         L1.add("world!");
         System.out.println("L1 = " + L1);
-        
+
         L1.add(0,1);
         System.out.println("L1 = " + L1);
 
@@ -318,7 +318,7 @@ public class variable {
 
 //      3. Generics
         System.out.println("== Generics ==");
-        
+
         ArrayList L3 = new ArrayList();
         L3.add(1);
         L3.add("hello");

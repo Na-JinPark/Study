@@ -1,6 +1,6 @@
 package car;
 
-public class Car3 {
+public class Car3 { //접근제어자 실습
     public String name1;
     private String name2;
     protected String name3;
