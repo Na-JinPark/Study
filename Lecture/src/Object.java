@@ -2,6 +2,8 @@
 
 // Car 클래스 - 객체변수, 메소드
 
+import car.Car3;
+
 class Car {
     String name;
     String type;
@@ -44,6 +46,24 @@ class Car2 {
     public void horn(){
         System.out.println("빵빵");
     }
+
+    //오버로딩 구현
+
+    public void printCarInfo(String date){
+        this.printCarInfo();
+        System.out.println("date : " + date);
+    }
+
+    public void printCarInfo(int number){
+        this.printCarInfo();
+        System.out.println("number : " + number);
+    }
+
+    public void printCarInfo(String date, int number){
+        this.printCarInfo();
+        System.out.println("date : " + date);
+        System.out.println("number : " + number);
+    }
 }
 
 ///연습
@@ -79,6 +99,27 @@ class Animal{
         System.out.println("뛰기");
     }
 
+
+}
+
+class Car3 {
+    // 스태틱 변수
+    String name;
+    String type;
+
+    Car3(String name, String type) {
+        this.name = name;
+        this.type = type;
+    }
+
+    public void printCarInfo() {
+        System.out.println("=== Car Info ===");
+        System.out.println("name: " + name);
+        System.out.println("type: " + type);
+    }
+
+    // 스태틱 메소드
+
 }
 
 public class Object {
@@ -103,9 +144,37 @@ public class Object {
         Animal animal1 = new Animal("강아지",5.0,"포유류");
         Animal animal2 = new Animal("구피",0.01,"어류");
 
-        animal1.printInfo();;
-        animal2.printInfo();;
+        animal1.printInfo();
+        animal2.printInfo();
+
+
+////////////////////////////////////////////////7_2
+
+        Car2 myCar1 = new Car2("a", "sedan");
+
+        myCar1.printCarInfo();
+
+//      1. 오버로딩 사용
+        System.out.println("=== 오버로딩 사용 ===");
+
+        myCar1.printCarInfo("2022");
+        myCar1.printCarInfo(1234);
+        myCar1.printCarInfo("2022",1234);
+
+//      2. 접근 제어자
+        System.out.println("=== 접근 제어자 ===");
+
+        Car3 myCar3 = new Car3("a", "b", "c", "d");//패키지 임포트 Alt + Enter
+        System.out.println(myCar3.name1);
+        /*System.out.println(myCar3.name2);
+        System.out.println(myCar3.name3);
+        System.out.println(myCar3.name4);*/
+
+//      3. Static
+        System.out.println("=== Static ===");
+
 
     }
+
 
 }
