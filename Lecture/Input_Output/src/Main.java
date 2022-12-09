@@ -54,12 +54,12 @@ public class Main {
         System.out.println(sc.next());
         sc.nextLine();*/
 
-        /*System.out.print("입력2:");
+        System.out.print("입력2:");
         System.out.println(sc.nextInt());//Integer 값만 입력받을수 있다. 그 외 타입은 오류 발생
         sc.nextLine();
 
         System.out.print("입력3:");
-        System.out.println(sc.nextLine()); //자유자재로 입력할 수 있다.*/
+        System.out.println(sc.nextLine()); //자유자재로 입력할 수 있다.
 
 
 //      참고) 정수, 문자열 변환
