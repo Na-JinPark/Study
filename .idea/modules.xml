@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/Lecture/AbstractClass/AbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Exception/Exception.iml" filepath="$PROJECT_DIR$/Lecture/Exception/Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/Lecture/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/Input_Output/Input_Output.iml" filepath="$PROJECT_DIR$/Lecture/Input_Output/Input_Output.iml" />
