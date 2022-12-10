@@ -12,7 +12,7 @@ public class MiniA3 {
         Scanner sc = new Scanner(System.in);
 
         if(checktype == "int"){
-            while (!sc.hasNextInt()) {
+            while (!sc.hasNextInt() || sc.nextInt() <0) {
                 sc.next();
                 System.out.println("숫자만 입력 가능합니다. 다시 입력해주세요");
                 System.out.print(test);
@@ -21,7 +21,7 @@ public class MiniA3 {
         }
         else if(checktype == "string"){
             result = sc.nextLine();
-            while (!(result.equals("y")||result.equals("n"))) {
+            while (!(result.toLowerCase().equals("y")||result.toLowerCase().equals("n"))) {
                 System.out.println("y/n 값만 입력가능합니다. 다시 입력해주세요");
                 System.out.print(test);
                 result = sc.nextLine();
@@ -47,7 +47,7 @@ public class MiniA3 {
         else if(age < 13 || time >= 17){ //특별할인일 경우
             ticket = 4000;
         }
-        else if(nation.equals("y") || card.equals("y")){ // 일반할인일 경우
+        else if(nation.toLowerCase().equals("y") || card.toLowerCase().equals("y")){ // 일반할인일 경우
             ticket = 8000;
         }
         System.out.println("입장료 : " + ticket);
