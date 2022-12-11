@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class MiniA4 {
     static int year;
     static int month;
-    public static int datecheck(String test, String inputtype){
+    public static int datecheck(String text, String inputtype){
 
-        System.out.print(test);
+        System.out.print(text);
         Scanner sc = new Scanner(System.in);
         int num;
         Calendar cal = java.util.Calendar.getInstance();
@@ -18,7 +18,7 @@ public class MiniA4 {
             if(!sc.hasNextInt()) {
                 sc.next();
                 System.out.println("숫자만 입력 가능합니다. 다시 입력해주세요");
-                System.out.print(test);
+                System.out.print(text);
                 continue;
             }
 
@@ -28,7 +28,7 @@ public class MiniA4 {
 
                 if ( num < 1900  || cal.get(cal.YEAR) < num) { //출생년도 1900~현재년도 까지만 입력
                     System.out.println("출생년도가 잘못 되었습니다. 다시 입력해주세요");
-                    System.out.print(test);
+                    System.out.print(text);
                     continue;
                 }
             }
@@ -36,7 +36,7 @@ public class MiniA4 {
 
                 if (num < 1 || 12 < num) { // 1~12월까지 입력됫는지 체크
                     System.out.println( "출생월이 잘못 되었습니다. 다시 입력해주세요");
-                    System.out.print(test);
+                    System.out.print(text);
                     continue;
                 }
             }
@@ -46,8 +46,8 @@ public class MiniA4 {
                 int lastday = cal.getActualMaximum(Calendar.DAY_OF_MONTH);
 
                 if (num < 1 || lastday < num) { //1일부터 출생월의 마지막 날
-                    System.out.printf( "출생일이 잘못 입력됬습니다. %d월은 1일부터 %d일입니다. 다시 입력해주세요\n", month, lastday);
-                    System.out.print(test);
+                    System.out.printf( "출생일이 잘못 입력됬습니다. %d월은 1일부터 %d일까지 있습니다. 다시 입력해주세요\n", month, lastday);
+                    System.out.print(text);
                     continue;
                 }
             }
@@ -58,14 +58,14 @@ public class MiniA4 {
         return num;
     }
 
-    public  static String stringcheck(String test) {
+    public  static String stringcheck(String text) {
 
-        System.out.print(test);
+        System.out.print(text);
         Scanner sc = new Scanner(System.in);
         String result = sc.nextLine();
         while (!(result.toLowerCase().equals("m") || result.toLowerCase().equals("f"))) {
             System.out.println("m/f 값만 입력가능합니다. 다시 입력해주세요");
-            System.out.print(test);
+            System.out.print(text);
             result = sc.nextLine();
         }
         return result;
@@ -97,12 +97,12 @@ public class MiniA4 {
         }
 
         StringBuffer number = new StringBuffer();
-        number.append(Integer.toString(year).substring(2,4));
-        number.append( month < 10? String.format("%02d", month) : month );
-        number.append( day < 10? String.format("%02d", day) : day );
+        number.append(Integer.toString(year).substring(2,4));    //출생년도 뒷자리2
+        number.append( month < 10? String.format("%02d", month) : month );  //월이 한자리일 경우 앞에 0과함께 월 더해줌
+        number.append( day < 10? String.format("%02d", day) : day ); //날짜가 한자리일 경우 앞에 0과함ㄲㅔ 날짜더해줌
         number.append( "-");
-        number.append(num);
-        number.append(new Random().nextInt(1000000));
+        number.append(num); //뒷자리 첫번쨰 순서
+        number.append(new Random().nextInt(1000000)); //나머지 여섯자리 랜덤함수
 
         System.out.println(number);
     }

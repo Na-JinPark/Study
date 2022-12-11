@@ -5,28 +5,49 @@ import javax.xml.transform.Result;
 import java.util.Scanner;
 
 public class MiniA3 {
-
-    public  static String inputcheck(String test, String checktype){
-        System.out.print(test);
-        String result = "";
+    public  static int intcheck(String text, String inputtype){
+        System.out.print(text);
         Scanner sc = new Scanner(System.in);
+        int num = 0;
 
-        if(checktype == "int"){
-            while (!sc.hasNextInt() || sc.nextInt() <0) {
+        while (true) {
+
+            if (!sc.hasNextInt()) {
                 sc.next();
                 System.out.println("숫자만 입력 가능합니다. 다시 입력해주세요");
-                System.out.print(test);
+                System.out.print(text);
+                continue;
             }
-            return Integer.toString(sc.nextInt());
+
+            num = sc.nextInt();
+
+            if (num < 0) {
+
+                if (inputtype == "age") {
+                    System.out.println("나이가 잘못 입력되었습니다. 다시 입력해주세요");
+                }else {
+                    System.out.println("입장시간이 잘못 입력되었습니다. 다시 입력해주세요");
+                }
+                System.out.print(text);
+                continue;
+            }
+
+            break;
         }
-        else if(checktype == "string"){
+
+        return num;
+    }
+    public  static String stringcheck(String text){
+        System.out.print(text);
+        Scanner sc = new Scanner(System.in);
+
+        String result = sc.nextLine();
+        while (!(result.toLowerCase().equals("y")||result.toLowerCase().equals("n"))) {
+            System.out.println("y/n 값만 입력가능합니다. 다시 입력해주세요");
+            System.out.print(text);
             result = sc.nextLine();
-            while (!(result.toLowerCase().equals("y")||result.toLowerCase().equals("n"))) {
-                System.out.println("y/n 값만 입력가능합니다. 다시 입력해주세요");
-                System.out.print(test);
-                result = sc.nextLine();
-            }
         }
+
         return result;
     }
 
@@ -34,10 +55,10 @@ public class MiniA3 {
 
         System.out.println("[입장권 계산]");
 
-        int age = Integer.parseInt(inputcheck("나이를 입력해 주세요.(숫자) : ", "int"));
-        int time = Integer.parseInt(inputcheck("입장시간을 입력해 주세요.(숫자입력) : ", "int"));
-        String nation = inputcheck("국가유공자 여부를 입력해 주세요.(y/n) : ", "string");
-        String card = inputcheck("복지카드 여부를 입력해 주세요.(y/n) : ", "string");
+        int age = intcheck("나이를 입력해 주세요.(숫자) : ", "age");
+        int time = intcheck("입장시간을 입력해 주세요.(숫자입력) : ", "time");
+        String nation = stringcheck("국가유공자 여부를 입력해 주세요.(y/n) : ");
+        String card = stringcheck("복지카드 여부를 입력해 주세요.(y/n) : ");
 
         int ticket = 10000;
 
