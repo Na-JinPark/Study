@@ -1,7 +1,4 @@
-import com.sun.org.apache.xml.internal.utils.res.XResources_ja_JP_A;
-import com.sun.org.apache.xpath.internal.objects.XString;
 
-import javax.xml.transform.Result;
 import java.util.Scanner;
 
 public class MiniA3 {
