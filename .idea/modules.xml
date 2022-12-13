@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lecture/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/Lecture/AbstractClass/AbstractClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/Lecture/Arrangement/Arrangement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/Lecture/ConditionalStatements/ConditionalStatements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Exception/Exception.iml" filepath="$PROJECT_DIR$/Lecture/Exception/Exception.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Lecture/Inheritance/Inheritance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/Lecture/InnerClass/InnerClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Input_Output/Input_Output.iml" filepath="$PROJECT_DIR$/Lecture/Input_Output/Input_Output.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Interface/Interface.iml" filepath="$PROJECT_DIR$/Lecture/Interface/Interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Loop/LOOP.iml" filepath="$PROJECT_DIR$/Lecture/Loop/LOOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Lecture.iml" filepath="$PROJECT_DIR$/Lecture/Lecture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Object/Object.iml" filepath="$PROJECT_DIR$/Lecture/Object/Object.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Operator/Operator.iml" filepath="$PROJECT_DIR$/Lecture/Operator/Operator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Lecture/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/Combination/Combination.iml" filepath="$PROJECT_DIR$/DataStructure/Combination/Combination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" filepath="$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" filepath="$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Interface/Interface.iml" filepath="$PROJECT_DIR$/JavaBasic/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" filepath="$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/Number_of_Cases/Number_of_Cases.iml" filepath="$PROJECT_DIR$/DataStructure/Number_of_Cases/Number_of_Cases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Object/Object.iml" filepath="$PROJECT_DIR$/JavaBasic/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Operator/Operator.iml" filepath="$PROJECT_DIR$/JavaBasic/Operator/Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/Permutation/Permutation.iml" filepath="$PROJECT_DIR$/DataStructure/Permutation/Permutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/JavaBasic/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/Set/Set.iml" filepath="$PROJECT_DIR$/DataStructure/Set/Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lecture/Variable/Variable.iml" filepath="$PROJECT_DIR$/Lecture/Variable/Variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Variable/Variable.iml" filepath="$PROJECT_DIR$/JavaBasic/Variable/Variable.iml" />
     </modules>
   </component>
 </project>
