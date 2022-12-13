@@ -95,7 +95,7 @@ public class Main {
         System.out.println("== checkTenWithThrows ==");
 
         try{
-            checkResult = Main.checkTenWithException(5);
+            checkResult = Main.checkTenWithThrows(5);
         }catch (NotTenException e){
             System.out.println("e = " + e);
         }
