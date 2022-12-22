@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/Math/Combination/Combination.iml" filepath="$PROJECT_DIR$/Math/Combination/Combination.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Complexity/Complexity.iml" filepath="$PROJECT_DIR$/Math/Complexity/Complexity.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Deque/Deque.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Deque/Deque.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" filepath="$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/Linear DataStructure/HashTable/HashTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" filepath="$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" />
@@ -19,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/LInkedlist/LInkedlist.iml" filepath="$PROJECT_DIR$/Linear DataStructure/LInkedlist/LInkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" filepath="$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/JavaBasic/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture/Lecture.iml" filepath="$PROJECT_DIR$/Lecture/Lecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Linear DataStructure.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Linear DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Log/Log.iml" filepath="$PROJECT_DIR$/Math/Log/Log.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
