@@ -23,7 +23,10 @@ class LinkedList {
     }
 
     public boolean isEmpty() {
-        return this.head == null;
+        if (this.head == null) {
+            return true;
+        }
+        return false;
     }
 
     public void addData(int key, int data) {
@@ -61,7 +64,7 @@ class LinkedList {
         }
     }
 
-    public Integer findData(int data) {
+    public Integer findData(int key) {
         if (this.isEmpty()) {
             System.out.println("List is empty");
             return null;
@@ -69,8 +72,7 @@ class LinkedList {
 
         Node cur = this.head;
         while (cur != null) {
-            if (cur.key == data) {
-                System.out.println("Data exist!");
+            if (cur.key == key) {
                 return cur.data;
             }
             cur = cur.next;
@@ -97,42 +99,43 @@ class LinkedList {
 class MyHashTable5 {
     LinkedList[] table;
 
-    MyHashTable5(int size){
-        this.table = new LinkedList[];
+    MyHashTable5(int size) {
+        this.table = new LinkedList[size];
         for (int i = 0; i < this.table.length; i++) {
             this.table[i] = new LinkedList(null);
         }
     }
 
-    public int getHash(int key){
+    public int getHash(int key) {
         return key % this.table.length;
     }
 
-    public void setValue(int key, int data){
+    public void setValue(int key, int data) {
         int idx = this.getHash(key);
 
         this.table[idx].addData(key, data);
     }
 
-    public int getValue(int key){
+    public int getValue(int key) {
         int idx = this.getHash(key);
         int data = this.table[idx].findData(key);
         return data;
     }
 
-    public void removeValue(int key){
+    public void removeValue(int key) {
         int idx = this.getHash(key);
 
         this.table[idx].removeData(key);
     }
 
-    public void printHashTable(){
-        System.out.println("==Hash Table==");
+    public void printHashTable() {
+        System.out.println("== Hash Table ==");
         for (int i = 0; i < this.table.length; i++) {
-            System.out.println(i+":");
+            System.out.print(i + ": ");
             this.table[i].showData();
         }
     }
+
 }
 
 public class Practice5 {
@@ -165,6 +168,5 @@ public class Practice5 {
         ht.removeValue(5);
         ht.removeValue(16);
         ht.printHashTable();
-
     }
 }

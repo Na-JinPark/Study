@@ -15,9 +15,26 @@ package Practice;// Practice2
 
 
 import java.util.Arrays;
+import java.util.Hashtable;
 
 public class Practice2 {
     public static int[] solution(int[] numbers, int target) {
+        int[] result = new int[2];
+        Hashtable<Integer, Integer> ht = new Hashtable<>();
+
+        // 해시 테이블을 full 로 구성하고 시작 x
+        // 현재 값이 해시테이블에 있는지 검사
+        // 있으면 구간 result 에 설정 후 break
+        // 없으면 target - 현재 값 을 해시 테이블에 추가
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (ht.containsKey(numbers[i])) {
+                result[0] = ht.get(numbers[i]);
+                result[1] = i;
+                return result;
+            }
+            ht.put(target - numbers[i], i);
+        }
 
         return null;
     }
