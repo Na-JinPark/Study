@@ -1,3 +1,5 @@
+package exam01;
+
 public class CreditCardTest2 {
     public static void main(String[] args) {
         CreditCard myCard = new CreditCard();

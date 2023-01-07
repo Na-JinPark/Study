@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package exam01;
 
 public class CreditCardTest {
     public static void main(String[] args) {
