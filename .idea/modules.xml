@@ -48,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/NonLinear DataStructure/Tree/Tree.iml" filepath="$PROJECT_DIR$/NonLinear DataStructure/Tree/Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Variable/Variable.iml" filepath="$PROJECT_DIR$/JavaBasic/Variable/Variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/class_library/class_library.iml" filepath="$PROJECT_DIR$/OOP/class_library/class_library.iml" />
     </modules>
   </component>
 </project>
