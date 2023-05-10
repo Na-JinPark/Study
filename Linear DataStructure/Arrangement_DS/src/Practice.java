@@ -21,16 +21,16 @@ class MyArray {
             return;
         }
 
-        int[] arrDup = this.arr.clone();
-        this.arr = new int[this.arr.length+1];
+        int[] arrDup = this.arr.clone();// 기존 배열을 arrDup 복제
+        this.arr = new int[this.arr.length+1]; // 데이터를 삽입하기 때문에 기존 배열의 길이를 1 증가
 
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i < index; i++) { //기존 배열의 데이터를 다시 할당
             this.arr[i] = arrDup[i];
         }
-        for (int i = index+1; i<this.arr.length  ; i++) {
+        for (int i = index+1; i<this.arr.length  ; i++) {  // 데이터를 추가하려는 위치 다음부터 끝 인덱스 까지 기존 데이터를 할당
             this.arr[i] = arrDup[i-1];
         }
-        this.arr[index] = data;
+        this.arr[index] = data; // 추가하려는 위치에 데이터를 할당
     }
 
 
@@ -38,9 +38,9 @@ class MyArray {
     public  void removeData(int data){
         int targetIndex = -1;
 
-        for (int i = 0; i < this.arr.length; i++) {
+        for (int i = 0; i < this.arr.length; i++) {  //삭제하려고 하는 데이터가 기존 배열에 존재하는지 찾기
             if(this.arr[i]==data){
-                targetIndex =i;
+                targetIndex =i;   // 배열에 삭제하려고 하는 데이터가 존재하는 경우 해당 데이터 위치 저장
                 break;
             }
         }
@@ -48,13 +48,13 @@ class MyArray {
         if(targetIndex == -1){
             System.out.println("해당 데이터가 없습니다.");
         }else{
-            int[] arrDup = this.arr.clone();
-            this.arr = new int[this.arr.length -1];
+            int[] arrDup = this.arr.clone();   //기존데이터 백업
+            this.arr = new int[this.arr.length -1];  //배열 크기 1감소
 
-            for (int i = 0; i < targetIndex; i++) {
+            for (int i = 0; i < targetIndex; i++) {  // 지울려고하는 인덱스 위치 전까지 기존 데이터 할당
                 this.arr[i] = arrDup[i];
             }
-            for (int i = targetIndex; i < this.arr.length ; i++) {
+            for (int i = targetIndex; i < this.arr.length ; i++) { // 지울려고 하는 인덱스 위치 다음부터 배열의 끝까지 기존 데이터 할당
                 this.arr[i] = arrDup[i+1];
             }
         }
