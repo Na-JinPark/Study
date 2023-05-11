@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
          Queue queue = new LinkedList();
 
+
         /* Queue queue = new Queue 이렇게 써도 되지만 Quere가 인터페이스 방식으로 구현이 되어있어
            추상메소드들을 오버라이드해줘서 써줘야한다.
            그래서 큐에 필요한 연산들이 다 구현되있는 LinkedList를 ㅇㅣ용해 큐를 사용한다.*/
