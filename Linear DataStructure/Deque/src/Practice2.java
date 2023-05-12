@@ -25,7 +25,7 @@ class MyDeque2 {
         }
 
         this.arr[this.front] = data;
-        this.front = (this.front-1 + this.arr.length) %this.arr.length;
+        this.front = (this.front-1 + this.arr.length) %this.arr.length; // 프론트 인덱스가 0일경우에 대비해서 길이를 더해주고 나머지 연산
     }
 
     public void addLast(int data) {

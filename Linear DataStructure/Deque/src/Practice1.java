@@ -61,13 +61,13 @@ public class Practice1 {
         myDeque.addFirst(1);
         myDeque.addFirst(2);
         myDeque.addFirst(3);
-        myDeque.printDeque();    // 3 2 1
+        myDeque.printDeque();    // 3 2 1  
 
         // Rear 부분 입력
         myDeque.addLast(10);
         myDeque.addLast(20);
         myDeque.addLast(30);
-        myDeque.printDeque();    // 3 2 1 10 20 30
+        myDeque.printDeque();    // 3 2 1 10 20 30  앞 -> 뒤
 
         // Front 부분 출력
         System.out.println(myDeque.removeFirst());  // 3
