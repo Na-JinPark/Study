@@ -20,8 +20,8 @@ public class Arrangement {
         int[][] myArray2 = {{1,2,3},{4,5,6}};
         System.out.println("myArray2[1][2] = " + myArray2[1][2]);
 
-        for (int i = 0; i < myArray2.length; i++) {
-            for (int j = 0; j < myArray2[i].length; j++) { //myArray2[i].length 열의 개수
+        for (int i = 0; i < myArray2.length; i++) { //myArray2.length -> 행의 개수 - 2
+            for (int j = 0; j < myArray2[i].length; j++) { //myArray2[i].length -> 열의 개수 - 3
                 System.out.println(myArray2[i][j]);
             }
         }

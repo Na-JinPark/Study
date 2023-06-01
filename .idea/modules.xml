@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/10_AbstractClass/10_AbstractClass.iml" filepath="$PROJECT_DIR$/JavaBasic/10_AbstractClass/10_AbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/11_Interface/11_Interface.iml" filepath="$PROJECT_DIR$/JavaBasic/11_Interface/11_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/12_InnerClass/12_InnerClass.iml" filepath="$PROJECT_DIR$/JavaBasic/12_InnerClass/12_InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/3_Operator/3_Operator.iml" filepath="$PROJECT_DIR$/JavaBasic/3_Operator/3_Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/4_ConditionalStatements/4_ConditionalStatements.iml" filepath="$PROJECT_DIR$/JavaBasic/4_ConditionalStatements/4_ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/5_Loop/5_LOOP.iml" filepath="$PROJECT_DIR$/JavaBasic/5_Loop/5_LOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/6_Arrangement/6_Arrangement.iml" filepath="$PROJECT_DIR$/JavaBasic/6_Arrangement/6_Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/7_Object/7_Object.iml" filepath="$PROJECT_DIR$/JavaBasic/7_Object/7_Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/8_Inheritance/8_Inheritance.iml" filepath="$PROJECT_DIR$/JavaBasic/8_Inheritance/8_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/9_Polymorphism/9_Polymorphism.iml" filepath="$PROJECT_DIR$/JavaBasic/9_Polymorphism/9_Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Arrangement_DS/Arrangement_DS.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Arrangement_DS/Arrangement_DS.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Assignment/Assignment.iml" filepath="$PROJECT_DIR$/JavaBasic/Assignment/Assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/NonLinear DataStructure/Binary Search Tree/Binary Search Tree.iml" filepath="$PROJECT_DIR$/NonLinear DataStructure/Binary Search Tree/Binary Search Tree.iml" />
@@ -11,19 +19,14 @@
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/CollectionFramework/CollectionFramework.iml" filepath="$PROJECT_DIR$/JavaBasic/CollectionFramework/CollectionFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Combination/Combination.iml" filepath="$PROJECT_DIR$/Math/Combination/Combination.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Complexity/Complexity.iml" filepath="$PROJECT_DIR$/Math/Complexity/Complexity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/JavaBasic/ConditionalStatements/ConditionalStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Deque/Deque.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Deque/Deque.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" filepath="$PROJECT_DIR$/JavaBasic/Exception/Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/NonLinear DataStructure/Graph/Graph.iml" filepath="$PROJECT_DIR$/NonLinear DataStructure/Graph/Graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/Linear DataStructure/HashTable/HashTable.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/JavaBasic/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/Inheritance2/Inheritance2.iml" filepath="$PROJECT_DIR$/OOP/Inheritance2/Inheritance2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/JavaBasic/InnerClass/InnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" filepath="$PROJECT_DIR$/JavaBasic/Input_Output/Input_Output.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Interface/Interface.iml" filepath="$PROJECT_DIR$/JavaBasic/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/LInkedlist/LInkedlist.iml" filepath="$PROJECT_DIR$/Linear DataStructure/LInkedlist/LInkedlist.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" filepath="$PROJECT_DIR$/JavaBasic/Loop/LOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/JavaBasic/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture/Lecture.iml" filepath="$PROJECT_DIR$/Lecture/Lecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Linear DataStructure.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Linear DataStructure.iml" />
@@ -32,12 +35,9 @@
       <module fileurl="file://$PROJECT_DIR$/NonLinear DataStructure/NonLinear DataStructure.iml" filepath="$PROJECT_DIR$/NonLinear DataStructure/NonLinear DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Number_of_Cases/Number_of_Cases.iml" filepath="$PROJECT_DIR$/Math/Number_of_Cases/Number_of_Cases.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Object/Object.iml" filepath="$PROJECT_DIR$/JavaBasic/Object/Object.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Operator/Operator.iml" filepath="$PROJECT_DIR$/JavaBasic/Operator/Operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/P_JavaBasic/P_JavaBasic.iml" filepath="$PROJECT_DIR$/Practice/P_JavaBasic/P_JavaBasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/P_Math/P_Math.iml" filepath="$PROJECT_DIR$/Practice/P_Math/P_Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Permutation/Permutation.iml" filepath="$PROJECT_DIR$/Math/Permutation/Permutation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/JavaBasic/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Queue/Queue.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Recursive/Recursive.iml" filepath="$PROJECT_DIR$/Math/Recursive/Recursive.iml" />
