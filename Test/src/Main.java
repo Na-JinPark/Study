@@ -1,33 +1,41 @@
-
+import java.sql.SQLOutput;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
-    public static Map chk(int num, Map max){
-        for(int i=num; i>0; i--){
-            if(num%i==0){
-                if(max.containsKey(i)){
-                    max.replace(i, (int)max.get(i)+1);
+
+    public static int test (int n, int depth, int[][] blocks,int answer){
+        if(depth<0) return answer;
+        else{
+            int chk = Integer.MAX_VALUE;
+            int lo = 0;
+            for(int i = 0 ; i<blocks[depth].length; i++){
+                int num = Math.abs((n-i))-1>0 ? blocks[depth][i] + Math.abs((n-i))-1 : blocks[depth][i];
+                if(num<chk){
+                    chk = num;
+                    lo=i;
                 }
             }
+            answer += chk;
+            return  test(lo, depth+1, blocks, answer);
         }
-        return max;
     }
     public static void main(String[] args) {
-int[] A = {6,12,4};
-int num = 0;
-        Map max = new HashMap();
-        List alist = Arrays.stream(A).boxed().collect(Collectors.toList());
-        Collections.sort(alist);
-        int maxnnum = (int)alist.get(alist.size()-1);
-        for(int j=1; j<maxnnum; j++){
-            if(maxnnum%j==0) max.put(j,0);
-        }
-        for(int i=0;i<alist.size()-1;i++){
-            max = chk((int)alist.get(i),max);
-        }
-        num = (int)Collections.max(max.values());
-        System.out.println("num = " + num);
-
+        int[][] blocks = {{5, 6, 2, 6}, {1, 6, 4, 9}, {5, 6, 9, 4}, {55, 14, 21, 14}};
+        int depth = 3;
+        int n = 3;
+        int answer = 0;
+        test(0, 0, blocks, blocks[depth][n]);
     }
+
+
 }
+
+// 3, 4, 5
+// 4, 6, 5
+// 8, 1, 0
+
+//3,4,5  3
+//0,4,5  2
+//9,9,9  3
+//    1  1

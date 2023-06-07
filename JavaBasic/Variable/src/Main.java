@@ -56,15 +56,18 @@ public class Main {
 //      3. 표기법
 //      3-1. 카멜 표기법 (camelCase)
 //      변수, 함수
-        // myAge, oneApplePrice 등 낙타 등 모양처럼 뒤에 단어 대문자ㄴ노
+        // myAge, oneApplePrice 등 낙타 등 모양처럼 뒤에 단어 대문자로 표기
+        // 가장 앞의 문자는 소문자로, 나머지 단어의 첫 문자는 대문자로 표기
 
 //      3-2. 파스칼 표기법 (PascalCase)
 //      클래스
         // MyAge, OneApplePrice emd
+        // 각문자의 첫 문자를 대분자로 표기
 
 //      참고) 스네이크 표기법 (snake_case)
 //      사용 X
         // my_age, one_apple_price 등 _사용하는 것
+        // 소문자로 작성하고 단어와 단어사이에 언더바로 연결하여 표기
 
 
 
@@ -84,9 +87,11 @@ public class Main {
         int intNum3 = Integer.MAX_VALUE + 1;
         System.out.println("intNum3 = " + intNum3);  //최대값을 넘어가 -로 표시가 된다.
         long longNum = (long)Integer.MAX_VALUE + 1;
+
         /*변수를 long 으로 선언해주더라도 Integer.MAX_VALUE를 long으로 형변환 해주지 않으면
          Integer.MAX_VALUE + 1인 integer형의 데이터 범위가 넘어간 후 long으로 변환해주는 것이므로 잘못된 값이 들어가므로
          Integer.MAXM_VALUE를 long으로 형변환을 해주고 +1 을 해주어야한다.*/
+
         System.out.println("longNum = " + longNum);
 
 //      1-2. 실수
@@ -317,6 +322,8 @@ public class Main {
 
 
 //      3. Generics
+        // 자료형을 명시적으로 지정 ex) ArragList<String> li = new ArrayList<String>();
+        // 제한적일수 있지만 안정성을 높여주고 형변환을 줄여줌
         System.out.println("== Generics ==");
 
         ArrayList L3 = new ArrayList();
