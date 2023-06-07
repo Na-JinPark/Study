@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/10_AbstractClass/10_AbstractClass.iml" filepath="$PROJECT_DIR$/JavaBasic/10_AbstractClass/10_AbstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/11_Interface/11_Interface.iml" filepath="$PROJECT_DIR$/JavaBasic/11_Interface/11_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/12_InnerClass/12_InnerClass.iml" filepath="$PROJECT_DIR$/JavaBasic/12_InnerClass/12_InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/3_Operator/3_Operator.iml" filepath="$PROJECT_DIR$/JavaBasic/3_Operator/3_Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/4_ConditionalStatements/4_ConditionalStatements.iml" filepath="$PROJECT_DIR$/JavaBasic/4_ConditionalStatements/4_ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/5_Loop/5_LOOP.iml" filepath="$PROJECT_DIR$/JavaBasic/5_Loop/5_LOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/6_Arrangement/6_Arrangement.iml" filepath="$PROJECT_DIR$/JavaBasic/6_Arrangement/6_Arrangement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/7_Object/7_Object.iml" filepath="$PROJECT_DIR$/JavaBasic/7_Object/7_Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/8_Inheritance/8_Inheritance.iml" filepath="$PROJECT_DIR$/JavaBasic/8_Inheritance/8_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic/9_Polymorphism/9_Polymorphism.iml" filepath="$PROJECT_DIR$/JavaBasic/9_Polymorphism/9_Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/JavaBasic/AbstractClass/AbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" filepath="$PROJECT_DIR$/JavaBasic/Arrangement/Arrangement.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear DataStructure/Arrangement_DS/Arrangement_DS.iml" filepath="$PROJECT_DIR$/Linear DataStructure/Arrangement_DS/Arrangement_DS.iml" />
