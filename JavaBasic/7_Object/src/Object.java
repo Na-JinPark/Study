@@ -7,6 +7,7 @@ import car.Car3;
 class Car {
     String name;
     String type;
+
 //Car(){} 생성자 디폴트로 존재해서 생략가능
     public  void printCarInfo(){
         System.out.println("== Car Info ==");
@@ -23,13 +24,15 @@ class Car {
 }
 
 // Car2 클래스 - 생성자, this
+// this - 객체 자신을 의미
+// this() - 생성자
 
 class Car2 {
     String name;
     String type;
     //Car(){}
 
-    Car2(String _name, String _type){
+    Car2(String _name, String _type){ //생성자
         this.name = _name;
         this.type = _type;
         System.out.println("생성자 출력!");
@@ -145,7 +148,7 @@ public class Object {
     public static void main(String[] args) {
 //      Car 클래스 사용
 
-        Car mycar1 = new Car();
+        Car mycar1 = new Car();  // 카 생성
         mycar1.name = "a";
         mycar1.type = "suv";
         mycar1.printCarInfo();
@@ -173,6 +176,12 @@ public class Object {
         myCar1.printCarInfo();
 
 //      1. 오버로딩 사용
+        // 오버로딩 - 한 클래스 내에서 같은 이름의 메소드를 여러개 정의
+        // 오버로딩의 조건
+        // - 메소드의 이름이 같아야한다.
+        // - 매게변수의 개수 또는 타입이 같아야한다.
+        // - 리턴타입의 차이로는 오버로딩이 되지 않음
+
         System.out.println("=== 오버로딩 사용 ===");
 
         myCar1.printCarInfo("2022");
@@ -201,7 +210,7 @@ public class Object {
         mycar4_2.printCarInfo();
         mycar4_3.printCarInfo();
 
-        ////계산기 오버로딩 연습
+        //// 오버로딩 연습
         Calculator c = new Calculator();
         System.out.println(c.sum(1,2));
         System.out.println(c.sum(1.0,2.0));
