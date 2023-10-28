@@ -23,6 +23,9 @@ public class Main {
     public void test1 (String a){
         String test = a;
     }
+    public void test2 (String a){
+        String test = a;
+    }
     public static void main(String[] args) {
         int[][] blocks = {{5, 6, 2, 6}, {1, 6, 4, 9}, {5, 6, 9, 4}, {55, 14, 21, 14}};
         int depth = 3;
