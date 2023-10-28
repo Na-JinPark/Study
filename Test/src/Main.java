@@ -20,14 +20,18 @@ public class Main {
             return  test(lo, depth+1, blocks, answer);
         }
     }
+    public void test1 (String a){
+        String test = a;
+    }
     public static void main(String[] args) {
         int[][] blocks = {{5, 6, 2, 6}, {1, 6, 4, 9}, {5, 6, 9, 4}, {55, 14, 21, 14}};
         int depth = 3;
         int n = 3;
         int answer = 0;
         test(0, 0, blocks, blocks[depth][n]);
-    }
 
+
+    }
 
 }
 
